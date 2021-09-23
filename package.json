@@ -1,0 +1,50 @@
+{
+  "name": "quasar-boilerplate",
+  "version": "0.0.1",
+  "description": "Software Development Front-End",
+  "productName": "Quasar Boilerplate",
+  "author": "jacksonmangallay",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.10.11",
+    "@vee-validate/rules": "^4.4.7",
+    "axios": "^0.21.1",
+    "core-js": "^3.16.2",
+    "dotenv": "^10.0.0",
+    "quasar": "^2.0.4",
+    "vee-validate": "^4.4.9",
+    "vue-i18n": "^9.0.0-beta.0",
+    "vue3-datepicker": "^0.2.5",
+    "vuex": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.13.14",
+    "@quasar/app": "^3.1.0",
+    "@types/node": "^10.17.15",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^7.16.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

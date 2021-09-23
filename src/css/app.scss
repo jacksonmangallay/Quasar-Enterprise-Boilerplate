@@ -1,0 +1,33 @@
+// app global css in SCSS form
+html,
+body {
+  color: #676a6c;
+}
+
+.app-main {
+  padding: 16px;
+}
+
+.app-layout {
+  background-color: $gray-light;
+}
+
+.app-page-detail {
+  border-top: 1px solid $border;
+  border-bottom: 1px solid $border;
+  background-color: $light;
+}
+
+.app-toolbar {
+  padding: 0 16px;
+}
+
+.border-all {
+  border: 1px solid $border;
+}
+
+.nav-active-item {
+  padding-left: 12px;
+  border-left: 4px solid $primary;
+  background-color: $gray-light;
+}
